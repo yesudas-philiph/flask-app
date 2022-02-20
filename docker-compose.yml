@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  webapp:
+    container_name: webapp
+    ports: 
+      - "8080:4000"
+    image: yesudasphiliph/flaskapp
+    restart: always
+    networks: 
+      - mynet
+
+networks:
+    mynet:
+
+
