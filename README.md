@@ -7,7 +7,7 @@
 
 - The docker compose file for the preconfigured webapp
    > custom configurations applied\
-    requests coming from server port 8080 are forwarded to container port 4000
+    requests coming from server port 8080 are forwarded to container port 4000\
     image used : yesudasphiliph/flaskapp
 - Flask is a web framework, it's a Python module that lets you develop web applications easily
 
